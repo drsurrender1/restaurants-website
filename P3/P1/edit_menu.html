@@ -1,0 +1,272 @@
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<style type="text/css">
+		body 
+			{margin-top:20px;
+		background-color:#f2f6fc;
+		color:#69707a;
+		}
+		.img-account-profile {
+		    height: 10rem;
+		}
+		.rounded-circle {
+		    border-radius: 50% !important;
+		}
+		.card {
+		    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+			position: center;
+		}
+		.card .card-header {
+		    font-weight: 500;
+		}
+		.card-header:first-child {
+		    border-radius: 0.35rem 0.35rem 0 0;
+		}
+		.card-header {
+		    padding: 1rem 1.35rem;
+		    margin-bottom: 0;
+		    background-color: rgba(33, 40, 50, 0.03);
+		    border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+		}
+		.form-control, .dataTable-input {
+		    display: block;
+		    width: 100%;
+		    padding: 0.875rem 1.125rem;
+		    font-size: 0.875rem;
+		    font-weight: 400;
+		    line-height: 1;
+		    color: #69707a;
+		    background-color: #fff;
+		    background-clip: padding-box;
+		    border: 1px solid #c5ccd6;
+		    -webkit-appearance: none;
+		    -moz-appearance: none;
+		    appearance: none;
+		    border-radius: 0.35rem;
+		    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+		}
+		
+
+		
+		
+		</style>
+		
+
+    <title>Edit menu</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Yummy Web</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col align-self-start">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feed.html">Feed</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  My resturant
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="edit_restaurant.html">Edit Resturant</a></li>
+                  <li><a class="dropdown-item" href="edit_menu.html">Edit Menu</a></li>
+                  <li><a class="dropdown-item" href="add_post.html">Add Post</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Delete Resturant</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex col align-self-center" >
+              <input class="form-control me-2" type="search" placeholder="Search  Resturant" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><a href="search_demo.html">Search</a>
+              </button>
+            </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 col align-self-end">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="profile1.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Profile
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="profile1.html">edit profile</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button type="button" class="btn btn-primary position-relative bg-dark">
+                            Notifications                          
+                            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                              <span class="visually-hidden">New alerts</span>
+                            </span>
+                        </button>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">New Message 1</a></li>
+                      <li><a class="dropdown-item" href="#">New Message 2</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Read All</a></li>
+                    </ul>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Log Out</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+    </nav>
+
+    <main>
+
+        
+    </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+	
+	<div class="container" style="background-color:#ECE1BE ;">
+	    <!-- Account page navigation-->
+	    <hr class="">
+	    <div class="row">
+	        <div class="">
+	            <!-- Profile picture card-->
+	            <div class="card mb-4 mb-xl-0" style="border-color: #FFE484; background-color: #FFF3CD;" >
+	                <div class="card-header"><center><b>ADD NEW FOOD</b></center></div>
+	                <div class="card-body text-center">
+	                    <!-- Profile picture image-->
+	                    <img class="img-account-profile rounded-circle mb-2" src="./img/kfc3.jpg" alt="">
+	                    <!-- Profile picture help block-->
+	                    <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
+	                    <!-- Profile picture upload button-->
+	                    <button class="btn btn-outline-primary" type="button">Upload new image</button>
+	                </div>
+					<div class="card-body">
+						                    <form>
+						                        <!-- Form Group (username)-->
+						                        
+						                        <!-- Form Row-->
+						                        
+						                        <!-- Form Row        -->
+						                        <div class="row gx-3 mb-3">
+						                            <!-- Form Group (organization name)-->
+						                            <div class="col-md-6">
+						                                <label class="small mb-1" for="inputOrgName">Food Name</label>
+						                                <input class="form-control" id="inputOrgName" type="text" placeholder="Enter the Food Name" value="">
+						                            </div>
+						                            <!-- Form Group (location)-->
+						                            <div class="col-md-6">
+						                                <label class="small mb-1" for="inputLocation">Price</label>
+						                                <input class="form-control" id="inputLocation" type="text" placeholder="Enter the price" value="">
+						                            </div>
+						                        </div>
+						                        <!-- Form Group (email address)-->
+						                        <div class="mb-3">
+						                            <label class="small mb-1" for="inputUsername">Description</label>
+						                            <input class="form-control" id="inputUsername" type="text" placeholder="Enter the Description" value="">
+						                        </div>
+						                        <!-- Form Row-->
+						                        
+						                        <!-- Save changes button-->
+						                        <center><button class="btn btn-outline-primary" type="button">Save changes</button></center>
+						                    </form>
+						                </div>
+	            </div>
+	        </div>
+	        
+	    </div>
+	</div>
+	<div class="" id="menu" style="background-color: #ECE1BE;">
+			  <div class="container">
+			  
+			    <center><h1  style="margin-bottom:64px; color: #000000;"><b>Edit Item</b></h1></center>
+
+			
+			    <div id="Pizza" class="container" style="background-color: white;">
+			      <h1><b>Margherita</b> 
+				  <img src="img/kfc3.jpg"  width="150px" height="120px" class="align-middle float-end">
+				  </h1>
+			      <p class="" style="font-variant: all-small-caps;">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+				  <span class="card-header  rounded bg-opacity-50 bg-secondary" >$12.50</span>
+				  
+				  <br>
+				  
+			      <hr>
+				  <center>
+					  <button type="button" class="btn btn-outline-success">Edit</button>
+					  <button type="button" class="btn btn-outline-danger">Delete</button>
+				  </center>
+				  <hr>
+			   
+			      
+			      <h1><b>Margherita</b> 
+				  <img src="img/kfc3.jpg"  width="150px" height="120px" class="align-middle float-end">
+				  </h1>
+			      <p class="" style="font-variant: all-small-caps;">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+				  <span class="card-header  rounded bg-opacity-50 bg-secondary" >$12.50</span>
+				  <br>
+			      <hr>
+				  <center>
+				  					  <button type="button" class="btn btn-outline-success">Edit</button>
+				  					  <button type="button" class="btn btn-outline-danger">Delete</button>
+				  </center>
+				  <hr>
+			
+			      <h1><b>Margherita</b> 
+				  <img src="img/kfc3.jpg"  width="150px" height="120px" class="align-middle float-end">
+				  </h1>
+			      <p class="" style="font-variant: all-small-caps;">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+				  <span class="card-header  rounded bg-opacity-50 bg-secondary" >$12.50</span>
+				  <br>
+			      <hr>
+				  <center>
+				  					  <button type="button" class="btn btn-outline-success">Edit</button>
+				  					  <button type="button" class="btn btn-outline-danger">Delete</button>
+				  </center>
+				  <hr>
+			      <h1><b>Margherita</b> 
+				  <img src="img/kfc3.jpg"  width="150px" height="120px" class="align-middle float-end">
+				  </h1>
+			      <p class="" style="font-variant: all-small-caps;">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+				  <span class="card-header  rounded bg-opacity-50 bg-secondary" >$12.50</span>
+				  <br>
+			      <hr>
+				  <center>
+				  					  <button type="button" class="btn btn-outline-success">Edit</button>
+				  					  <button type="button" class="btn btn-outline-danger">Delete</button>
+				  </center>
+				  <hr>
+			      <h1><b>Margherita</b> 
+				  <img src="img/kfc3.jpg"  width="150px" height="120px" class="align-middle float-end">
+				  </h1>
+			      <p class="" style="font-variant: all-small-caps;">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+				  <span class="card-header  rounded bg-opacity-50 bg-secondary" >$12.50</span>
+				  <br>
+			      <hr>
+				  <center>
+				  					  <button type="button" class="btn btn-outline-success">Edit</button>
+				  					  <button type="button" class="btn btn-outline-danger">Delete</button>
+				  </center>
+				  <hr>
+				  </div>
+				  </div>
+				  </div>
+  </body>
+</html>

@@ -1,6 +1,6 @@
 #   Restaurants Social Media Platform
 
-This project is a web application that serves as a social media platform for restaurants. It provides users with features such as registration, sign-in, search functionality, like/unlike posts, follow/unfollow other users, create posts, receive notifications, view menus and blogs, and authenticates users with AWS.
+This project is a web application that serves as a social media platform for restaurants. It provides users with features such as registration, sign-in, search functionality, like/unlike posts, follow/unfollow other users, create posts, receive notifications, view menus and blogs, and authenticates users.
 
 ##  Features
 

@@ -18,7 +18,7 @@ Menus and Blogs: Users can view menus and blogs posted by restaurants, providing
 MVC Architecture: The project follows the Model-View-Controller (MVC) architectural pattern, ensuring a clear separation of concerns and maintainability.
 Technologies Used
 
-The project utilizes a combination of frontend and backend technologies to provide a fully functional social media platform for restaurants:
+## The project utilizes a combination of frontend and backend technologies to provide a fully functional social media platform for restaurants:
 
 Frontend: The frontend website is developed using JavaScript, specifically React.js and jQuery. These frameworks enable interactive and responsive user interfaces.
 
